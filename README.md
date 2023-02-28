@@ -4,7 +4,7 @@
 <img align="rigth" alt="Coding" width="400" src="https://media.tenor.com/NOYF3f82b_gAAAAC/programmer.gif">
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=salahelshafey" alt="salahelshafey" /></a> </p>
 
-<p align="left"> <a href="https://twitter.com/https://twitter.com/salah_elshafie" target="blank"><img src="https://img.shields.io/twitter/follow/https://twitter.com/salah_elshafie?logo=twitter&style=for-the-badge" alt="https://twitter.com/salah_elshafie" /></a> </p>
+<a href="https://twitter.com/@salah_elshafie" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="@salah_elshafie" height="30" width="40" /></a>
 
 - 🌱 I’m currently learning **JavaScript,Java**
 
