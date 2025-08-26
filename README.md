@@ -29,15 +29,10 @@
 ## 🏆 Achievements
 <p align="center">
   <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <picture>
-      <source media="(prefers-color-scheme: dark)"
-              srcset="https://github-profile-trophy.vercel.app/?username=salahelshafey&theme=tokyonight&no-frame=true&no-bg=true&margin-w=10&margin-h=10&column=6">
-      <source media="(prefers-color-scheme: light)"
-              srcset="https://github-profile-trophy.vercel.app/?username=salahelshafey&theme=flat&no-frame=true&no-bg=true&margin-w=10&margin-h=10&column=6">
-      <img src="https://github-profile-trophy.vercel.app/?username=salahelshafey&no-frame=true&no-bg=true&column=6&margin-w=10&margin-h=10" alt="GitHub Trophies"/>
-    </picture>
+    <img src="https://github-profile-trophy.vercel.app/?username=salahelshafey&theme=tokyonight&no-frame=true&no-bg=true&margin-w=10&margin-h=10&column=6" alt="GitHub Trophies"/>
   </a>
 </p>
+
 
 ---
 
