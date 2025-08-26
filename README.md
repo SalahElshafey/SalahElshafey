@@ -1,6 +1,6 @@
 <!-- ===== Masterhead ===== -->
 <p align="center">
-  <img src="https://raw.githubusercontent.com/saadeghi/saadeghi/master/dino.gif" alt="Banner" width="100%"/>
+  <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="100%"/>
 </p>
 
 <h1 align="center">Hi 👋, I'm Salah Elshafey</h1>
