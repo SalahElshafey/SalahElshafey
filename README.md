@@ -27,11 +27,10 @@
 ---
 
 ## 🏆 Achievements
-<p align="center">
-  <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="[https://github-profile-trophy.vercel.app/?username=salahelshafey&theme=tokyonight&no-frame=true&no-bg=true&margin-w=10&margin-h=10&column=6](https://github-profile-trophy.vercel.app/?username=ryo-ma&theme=gruvbox)" alt="GitHub Trophies"/>
-  </a>
-</p>
+## 🏆 Achievements
+
+![GitHub Trophies](https://github-profile-trophy.vercel.app/?username=salahelshafey&theme=tokyonight&no-frame=true&no-bg=true&column=6&margin-w=10&margin-h=10)
+
 
 
 ---
