@@ -26,9 +26,12 @@
 
 ---
 
-## 🏆 Achievements
+<h2>🏆 Achievements</h2>
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=salahelshafey&theme=tokyonight&no-frame=true&no-bg=true&column=6&margin-w=10&margin-h=10"
+       alt="GitHub Trophies">
+</p>
 
-![GitHub Trophies]([https://github-profile-trophy.vercel.app/?username=salahelshafey&theme=tokyonight&no-frame=true&no-bg=true&column=6&margin-w=10&margin-h=10]https://github-profile-trophy.vercel.app/?username=ryo-ma&theme=algolia)
 
 
 
