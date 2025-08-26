@@ -12,9 +12,9 @@
 
 - 💬 Ask me about **C#,C++,C,Python**
 
-- 📫 How to reach me **Salahkhaledcx5@gmail.com**
+- 📫 How to reach me **Salaheldinelshafie@gmail.com**
 
-- 📄 Know about my experiences [https://www.canva.com/design/DAEqvs8COn4/DitfS560Z5BjR0uHIcPFVA/view?utm_content=DAEqvs8COn4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton](https://www.canva.com/design/DAEqvs8COn4/DitfS560Z5BjR0uHIcPFVA/view?utm_content=DAEqvs8COn4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+- 💾 Download my resume [Google Drive Link](https://drive.google.com/file/d/1Vv9GS6_QjldfRYYANVyX-hqmCcank_7z/view?usp=sharing)
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
