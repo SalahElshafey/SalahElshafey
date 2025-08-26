@@ -1,7 +1,9 @@
 <!-- ===== Masterhead ===== -->
 <p align="center">
-  <img src="(https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExa3QyYW9iNnoxOG1oM2NpaXFsMzZpZ2pseDRlNzlyaDhsMGxoOW5qdSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/OLPQ6z2hlHmwFc4Hso/giphy.gif)" width="100%"/>
+  <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExa3QyYW9iNnoxOG1oM2NpaXFsMzZpZ2pseDRlNzlyaDhsMGxoOW5qdSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/OLPQ6z2hlHmwFc4Hso/giphy.gif"
+       width="100%" alt="Coding animation" />
 </p>
+
 
 <h1 align="center">Hi 👋, I'm Salah Elshafey</h1>
 <h3 align="center">💻 Passionate Computer Systems Engineer | Exploring cutting-edge technologies 🚀</h3>
