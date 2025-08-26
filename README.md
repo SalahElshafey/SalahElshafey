@@ -4,7 +4,7 @@
 <img align="left" alt="Coding" width="400" src="https://media.tenor.com/NOYF3f82b_gAAAAC/programmer.gif">
 <img align="center" alt="Coding" width="250" height="250" src="https://lh3.googleusercontent.com/FCTJV2u4ETqtkvFn0I1fY184UbdpWhqpAyyV6w7732ookhFnbAF_gBaWMNfAw28z_GhVeZmQIY7jbUuDlFEjWWv6ldLe7FvrJg4=w932">
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=salahelshafey" alt="salahelshafey" /></a> </p>
+[![trophy](https://github-profile-trophy.vercel.app/?username=ryo-ma&theme=onedark)](https://github.com/SalahElshafey)
 
 
 
@@ -19,7 +19,7 @@
 <h3 align="left">Connect with me:</h3>
 <p align="left">
 <p align="left"> <a href="https://twitter.com/salah_elshafie" target="blank"><img src="https://img.shields.io/twitter/follow/salah_elshafie?logo=twitter&style=for-the-badge" alt="salah_elshafie" /></a> </p>
-<a href="https://linkedin.com/in/salah-elshafey-3550461a1" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="salah-elshafey-3550461a1" height="30" width="40" /></a>
+<a href="https://www.linkedin.com/in/salah-elshafey/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="salah-elshafey-3550461a1" height="30" width="40" /></a>
 <a href="https://fb.com/salah.cx" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="salah.cx" height="30" width="40" /></a>
 </p>
 
