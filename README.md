@@ -27,9 +27,8 @@
 ---
 
 ## 🏆 Achievements
-## 🏆 Achievements
 
-![GitHub Trophies](https://github-profile-trophy.vercel.app/?username=salahelshafey&theme=tokyonight&no-frame=true&no-bg=true&column=6&margin-w=10&margin-h=10)
+![GitHub Trophies]([https://github-profile-trophy.vercel.app/?username=salahelshafey&theme=tokyonight&no-frame=true&no-bg=true&column=6&margin-w=10&margin-h=10](https://github-profile-trophy.vercel.app/?username=ryo-ma&theme=algolia))
 
 
 
