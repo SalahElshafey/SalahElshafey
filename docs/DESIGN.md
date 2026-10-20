@@ -61,4 +61,19 @@ Change geometry, text, palette, or timing in [generate_assets.py](../scripts/gen
 
 Run the validator, inspect actual first and intermediate frames, and review the README at desktop and narrow widths in both themes. Check reduced-motion selection as well as normal GIF playback. Keep text away from the diagram bounds. Recheck project descriptions against source before claiming any new capability; pinned references live in [the asset notes](../assets/README.md).
 
-The README uses Markdown plus supported `picture`, `source`, `img`, `br`, `sub`, and `strong` elements. It contains no CSS, JavaScript, iframe, or video dependency. Local GitHub-style previews approximate layout; review GitHub's hosted rendering before considering publication visually verified. No GitHub Actions workflow is needed to maintain these local assets.
+The README uses Markdown plus supported `a`, `picture`, `source`, `img`, `br`, `sub`, and `strong` elements. It contains no CSS, JavaScript, iframe, or video dependency. Local GitHub-style previews approximate layout; review GitHub's hosted rendering before considering publication visually verified. No GitHub Actions workflow is needed to maintain these local assets.
+
+## Website and contact links
+
+The personal website now leads the contact links at the top of the profile. A linked “Beyond the README” card introduces it again beside the closing invitation. The exact destination is `https://salah-elshafey.netlify.app/`.
+
+Website, email, LinkedIn, resume, and GitHub links use original SVG button artwork with consistent line icons, directional arrows, fine borders, and subtle surface gradients. The website uses a stronger blue surface to establish hierarchy. Every button is a normal anchor around a theme-aware image, so GitHub does not need to support custom CSS or JavaScript. Each displayed button is 136 × 45 px; inline links wrap naturally on narrow screens. The website card has a separate mobile composition. Native website and email links remain readable below the buttons.
+
+Regenerate these 14 SVG files with the standard library alone:
+
+```bash
+python3 scripts/generate_contact_assets.py
+python3 scripts/validate_assets.py
+```
+
+The button/card generator does not touch the animated assets. Edit `THEMES`, `LABELS`, or the vector geometry in `scripts/generate_contact_assets.py`; README anchors own the destinations. All button icons are original line drawings and require no additional icon library.

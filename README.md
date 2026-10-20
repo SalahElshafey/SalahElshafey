@@ -15,7 +15,11 @@
 
 I work on the path from raw data to useful intelligence: traceable datasets, language-model experiments, and computer vision connected to software and hardware.
 
-[GitHub](https://github.com/SalahElshafey) &nbsp; / &nbsp; [LinkedIn](https://www.linkedin.com/in/salah-elshafey/) &nbsp; / &nbsp; [Resume](https://drive.google.com/file/d/1Vv9GS6_QjldfRYYANVyX-hqmCcank_7z/view?usp=sharing) &nbsp; / &nbsp; [Email](mailto:Salaheldinelshafie@gmail.com)
+<a href="https://salah-elshafey.netlify.app/"><picture><source media="(prefers-color-scheme: light)" srcset="assets/contact/website-light.svg"><img src="assets/contact/website-dark.svg" alt="Visit my personal website" width="136" height="45"></picture></a>
+<a href="mailto:Salaheldinelshafie@gmail.com"><picture><source media="(prefers-color-scheme: light)" srcset="assets/contact/email-light.svg"><img src="assets/contact/email-dark.svg" alt="Email me" width="136" height="45"></picture></a>
+<a href="https://www.linkedin.com/in/salah-elshafey/"><picture><source media="(prefers-color-scheme: light)" srcset="assets/contact/linkedin-light.svg"><img src="assets/contact/linkedin-dark.svg" alt="Connect on LinkedIn" width="136" height="45"></picture></a>
+<a href="https://drive.google.com/file/d/1Vv9GS6_QjldfRYYANVyX-hqmCcank_7z/view?usp=sharing"><picture><source media="(prefers-color-scheme: light)" srcset="assets/contact/resume-light.svg"><img src="assets/contact/resume-dark.svg" alt="Read my resume" width="136" height="45"></picture></a>
+<a href="https://github.com/SalahElshafey"><picture><source media="(prefers-color-scheme: light)" srcset="assets/contact/github-light.svg"><img src="assets/contact/github-dark.svg" alt="Visit my GitHub profile" width="136" height="45"></picture></a>
 
 [Approach](#data-models-systems) · [Selected work](#selected-engineering-work) · [Toolbox](#technical-toolbox) · [Connect](#lets-build-something-meaningful)
 
@@ -169,9 +173,24 @@ Follow the work through [my repositories](https://github.com/SalahElshafey?tab=r
 
 Working on language models, computer vision, or an intelligent system that needs to meet the physical world? I’d enjoy comparing approaches and discussing a collaboration.
 
-**[Email me](mailto:Salaheldinelshafie@gmail.com)** &nbsp; / &nbsp; [LinkedIn](https://www.linkedin.com/in/salah-elshafey/) &nbsp; / &nbsp; [Resume](https://drive.google.com/file/d/1Vv9GS6_QjldfRYYANVyX-hqmCcank_7z/view?usp=sharing) &nbsp; / &nbsp; [GitHub](https://github.com/SalahElshafey)
+<a href="https://salah-elshafey.netlify.app/">
+  <picture>
+    <source media="(max-width: 600px) and (prefers-color-scheme: light)" srcset="assets/contact/website-card-mobile-light.svg">
+    <source media="(max-width: 600px)" srcset="assets/contact/website-card-mobile-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="assets/contact/website-card-light.svg">
+    <img src="assets/contact/website-card-dark.svg" alt="Beyond the README. Visit my personal website at salah-elshafey.netlify.app." width="960">
+  </picture>
+</a>
 
-[Salaheldinelshafie@gmail.com](mailto:Salaheldinelshafie@gmail.com) · Also on [X / Twitter](https://twitter.com/salah_elshafie) and [Facebook](https://fb.com/salah.cx).
+<a href="https://salah-elshafey.netlify.app/"><picture><source media="(prefers-color-scheme: light)" srcset="assets/contact/website-light.svg"><img src="assets/contact/website-dark.svg" alt="Visit my personal website" width="136" height="45"></picture></a>
+<a href="mailto:Salaheldinelshafie@gmail.com"><picture><source media="(prefers-color-scheme: light)" srcset="assets/contact/email-light.svg"><img src="assets/contact/email-dark.svg" alt="Email me" width="136" height="45"></picture></a>
+<a href="https://www.linkedin.com/in/salah-elshafey/"><picture><source media="(prefers-color-scheme: light)" srcset="assets/contact/linkedin-light.svg"><img src="assets/contact/linkedin-dark.svg" alt="Connect on LinkedIn" width="136" height="45"></picture></a>
+<a href="https://drive.google.com/file/d/1Vv9GS6_QjldfRYYANVyX-hqmCcank_7z/view?usp=sharing"><picture><source media="(prefers-color-scheme: light)" srcset="assets/contact/resume-light.svg"><img src="assets/contact/resume-dark.svg" alt="Read my resume" width="136" height="45"></picture></a>
+<a href="https://github.com/SalahElshafey"><picture><source media="(prefers-color-scheme: light)" srcset="assets/contact/github-light.svg"><img src="assets/contact/github-dark.svg" alt="Visit my GitHub profile" width="136" height="45"></picture></a>
+
+[salah-elshafey.netlify.app](https://salah-elshafey.netlify.app/) · [Salaheldinelshafie@gmail.com](mailto:Salaheldinelshafie@gmail.com)
+
+Also on [X / Twitter](https://twitter.com/salah_elshafie) and [Facebook](https://fb.com/salah.cx).
 
 ---
 

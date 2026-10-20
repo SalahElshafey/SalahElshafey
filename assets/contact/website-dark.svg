@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="192" height="64" viewBox="0 0 192 64" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">Website</title>
+  <desc id="desc">Website contact link.</desc>
+
+  <defs>
+    <linearGradient id="surface" x1="0" y1="0" x2="192" y2="64" gradientUnits="userSpaceOnUse"><stop stop-color="#163F5B"/><stop offset="1" stop-color="#102B43"/></linearGradient>
+    <linearGradient id="edge"><stop stop-color="#45DBFF" stop-opacity=".8"/><stop offset="1" stop-color="#334A65"/></linearGradient>
+  </defs>
+  <rect x="1" y="1" width="190" height="62" rx="14" fill="url(#surface)" stroke="url(#edge)"/>
+  <path d="M21 2h74" stroke="#FFFFFF" stroke-opacity=".3" stroke-linecap="round"/>
+  <g stroke="#FFFFFF" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="30" cy="32" r="10"/><ellipse cx="30" cy="32" rx="4" ry="10"/><path d="M20 32h20"/></g>
+  <text x="53" y="39" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="20" font-weight="600" fill="#FFFFFF">Website</text>
+  <path d="M163 37l9-9m-8 0h8v8" stroke="#FFFFFF" stroke-opacity=".75" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+
+</svg>

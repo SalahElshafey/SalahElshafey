@@ -1,6 +1,19 @@
 # Portfolio validation
 
-Checked on 20 October 2026. These results describe the local repository and browser preview, not a published GitHub profile.
+Latest refinement checked on 20 October 2026. Browser results below describe local GitHub-style previews; hosted GitHub rendering is not implied.
+
+## Website and contact refinement
+
+- Added the exact personal website URL: `https://salah-elshafey.netlify.app/`.
+- Introduced Website, Email me, LinkedIn, Resume, and GitHub SVG buttons in both themes, plus a website invitation card with desktop/mobile compositions.
+- `python3 scripts/validate_assets.py` passes: 66 README image references, all 18 prior external destinations preserved, 38 valid SVGs, and all 12 existing GIF variants still pass.
+- Local Chromium checked 16 width/theme/motion combinations at 1280, 768, 390, and 320 px: all 27 images load, all 11 image-link anchors use expected destinations, theme and mobile artwork selection matches, and no horizontal overflow occurs. Normal/reduced motion selection still works.
+- Actual desktop and mobile contact screenshots were reviewed. Buttons wrap naturally at narrow widths; all card text and controls remain inside their compositions.
+- All 14 new SVG files reproduce byte for byte when regenerated from a different working directory. They total 20,022 bytes across all variants. The selected five buttons and desktop card total 8,047 bytes in dark mode before browser caching and request overhead; repeated button rows share the same assets.
+- Website HTTPS availability could not be confirmed: this environment's proxy denied the request with a 403 tunnel error. The supplied URL was preserved exactly. Existing social-link access limitations still apply.
+- The new assets need only Python's standard library: `python3 scripts/generate_contact_assets.py`. No new package, service, secret, or workflow is required.
+
+The following sections retain the original redesign audit and its earlier measurements.
 
 ## Content and source audit
 
