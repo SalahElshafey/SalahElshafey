@@ -1,148 +1,178 @@
 <picture>
-  <source media="(max-width: 600px) and (prefers-color-scheme: light)" srcset="assets/profile-hero-mobile-light.svg">
-  <source media="(max-width: 600px)" srcset="assets/profile-hero-mobile.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/profile-hero-light.svg">
-  <img src="assets/profile-hero.svg" alt="Intelligence, engineered. A circuit-inspired illustration connecting data, models and real-world systems." width="960">
+  <source media="(max-width: 600px) and (prefers-reduced-motion: reduce) and (prefers-color-scheme: light)" srcset="assets/hero/hero-mobile-light-static.png">
+  <source media="(max-width: 600px) and (prefers-reduced-motion: reduce)" srcset="assets/hero/hero-mobile-dark-static.png">
+  <source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: light)" srcset="assets/hero/hero-light-static.png">
+  <source media="(prefers-reduced-motion: reduce)" srcset="assets/hero/hero-dark-static.png">
+  <source media="(max-width: 600px) and (prefers-color-scheme: light)" srcset="assets/hero/hero-mobile-light.gif">
+  <source media="(max-width: 600px)" srcset="assets/hero/hero-mobile-dark.gif">
+  <source media="(prefers-color-scheme: light)" srcset="assets/hero/hero-light.gif">
+  <img src="assets/hero/hero-dark.gif" alt="Salah Elshafey. Engineering intelligence: signals flow from data through abstract model layers into applications, vision, and hardware." width="1200">
 </picture>
 
 # Salah Elshafey
 
 **Computer Systems Engineer · AI & Machine Learning · Intelligent Systems**
 
-I build the connections between data, models, and the systems that put them to work.
+I work on the path from raw data to useful intelligence: traceable datasets, language-model experiments, and computer vision connected to software and hardware.
 
-[GitHub](https://github.com/SalahElshafey) · [LinkedIn](https://www.linkedin.com/in/salah-elshafey/) · [Resume](https://drive.google.com/file/d/1Vv9GS6_QjldfRYYANVyX-hqmCcank_7z/view?usp=sharing) · [Email](mailto:Salaheldinelshafie@gmail.com)
+[GitHub](https://github.com/SalahElshafey) &nbsp; / &nbsp; [LinkedIn](https://www.linkedin.com/in/salah-elshafey/) &nbsp; / &nbsp; [Resume](https://drive.google.com/file/d/1Vv9GS6_QjldfRYYANVyX-hqmCcank_7z/view?usp=sharing) &nbsp; / &nbsp; [Email](mailto:Salaheldinelshafie@gmail.com)
 
-[About](#about) &nbsp; / &nbsp; [Featured work](#featured-work) &nbsp; / &nbsp; [Toolbox](#technical-toolbox) &nbsp; / &nbsp; [Connect](#lets-connect)
+[Approach](#data-models-systems) · [Selected work](#selected-engineering-work) · [Toolbox](#technical-toolbox) · [Connect](#lets-build-something-meaningful)
 
-## About
+## Data. Models. Systems.
 
-My work spans language-model data pipelines, distributed fine-tuning experiments, and computer vision for wearable and interactive systems. I’m interested in the whole path: preparing traceable data, understanding model behavior, and connecting predictions to software and hardware.
+A model is one part of the work. I care about where its data came from, what its compute budget allows, and how its outputs reach an application or device.
 
-**Currently exploring:** transformer internals, memory-efficient training, and application development with Java and JavaScript.
+<picture>
+  <source media="(max-width: 600px) and (prefers-reduced-motion: reduce) and (prefers-color-scheme: light)" srcset="assets/motion/data-models-systems-mobile-light-static.png">
+  <source media="(max-width: 600px) and (prefers-reduced-motion: reduce)" srcset="assets/motion/data-models-systems-mobile-dark-static.png">
+  <source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: light)" srcset="assets/motion/data-models-systems-light-static.png">
+  <source media="(prefers-reduced-motion: reduce)" srcset="assets/motion/data-models-systems-dark-static.png">
+  <source media="(max-width: 600px) and (prefers-color-scheme: light)" srcset="assets/motion/data-models-systems-mobile-light.gif">
+  <source media="(max-width: 600px)" srcset="assets/motion/data-models-systems-mobile-dark.gif">
+  <source media="(prefers-color-scheme: light)" srcset="assets/motion/data-models-systems-light.gif">
+  <img src="assets/motion/data-models-systems-dark.gif" alt="Data: acquire, normalize, trace. Models: understand, adapt, evaluate. Systems: connect, integrate, observe." width="960">
+</picture>
 
-## Featured work
+## Selected engineering work
 
-Selected individual and collaborative projects. Each repository contains the implementation, context, and scope of the work.
+Three studies in data and models, followed by three projects connecting software to the physical world. The illustrations are conceptual diagrams; each repository documents the implementation and its limits.
 
-### 01 — Edge SLM
+### 01 / Edge SLM
 
-<a href="https://github.com/SalahElshafey/Edge-SLM-Offline-Domain-Specific-Small-Language-Model-Pipeline">
-  <picture>
-    <source media="(prefers-color-scheme: light)" srcset="assets/project-edge-slm-light.svg">
-    <img src="assets/project-edge-slm.svg" alt="Edge SLM: heterogeneous source documents become structured, traceable training tasks." width="960">
-  </picture>
-</a>
+**Training data with a traceable path back to its source.**
 
-**Training data with a traceable path back to its source.** A multimodal ingestion pipeline that normalizes documents and media, preserves provenance through chunking, and exports structured study-note tasks. A Streamlit interface supports local ingestion; model enrichment, fine-tuning, and deployment are downstream stages.
+<picture>
+  <source media="(max-width: 600px) and (prefers-reduced-motion: reduce) and (prefers-color-scheme: light)" srcset="assets/projects/edge-slm-mobile-light-static.png">
+  <source media="(max-width: 600px) and (prefers-reduced-motion: reduce)" srcset="assets/projects/edge-slm-mobile-dark-static.png">
+  <source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: light)" srcset="assets/projects/edge-slm-light-static.png">
+  <source media="(prefers-reduced-motion: reduce)" srcset="assets/projects/edge-slm-dark-static.png">
+  <source media="(max-width: 600px) and (prefers-color-scheme: light)" srcset="assets/projects/edge-slm-mobile-light.gif">
+  <source media="(max-width: 600px)" srcset="assets/projects/edge-slm-mobile-dark.gif">
+  <source media="(prefers-color-scheme: light)" srcset="assets/projects/edge-slm-light.gif">
+  <img src="assets/projects/edge-slm-dark.gif" alt="Conceptual Edge SLM diagram: documents converge into a shared schema and branch into JSONL training tasks, retaining provenance." width="960">
+</picture>
 
-`Python` `Streamlit` `Document processing` `Dataset engineering`
+Technical knowledge arrives as PDFs, slides, text, and media. This pipeline normalizes those sources, retains provenance through section-aware chunking, and exports structured study-note tasks. A local Streamlit interface runs ingestion and prepares the downstream handoff.
 
-[Explore the pipeline →](https://github.com/SalahElshafey/Edge-SLM-Offline-Domain-Specific-Small-Language-Model-Pipeline)
+**Scope:** data preparation and ingestion are implemented; enrichment, fine-tuning, quantization, and model evaluation are downstream stages.
 
-### 02 — Distributed LLM Fine-Tuning
+`Python` `Streamlit` `Multimodal ingestion` `Dataset engineering`
 
-<a href="https://github.com/SalahElshafey/VT-Cluster--Parallel-and-Distributed-Programming-of-Machine-Learning-Models">
-  <picture>
-    <source media="(prefers-color-scheme: light)" srcset="assets/project-hpc-light.svg">
-    <img src="assets/project-hpc.svg" alt="Distributed training: connected compute nodes share a model-training workload." width="960">
-  </picture>
-</a>
+[Explore the data pipeline →](https://github.com/SalahElshafey/Edge-SLM-Offline-Domain-Specific-Small-Language-Model-Pipeline)
 
-**Exploring model training within tight memory budgets.** DistilGPT2 and OPT-2.7B experiments on a multi-node CPU cluster, using LoRA, distributed data parallelism, and DeepSpeed pipeline parallelism. Includes training scripts and SLURM launchers; the original cluster is private.
+### 02 / Distributed LLM Fine-Tuning
 
-`PyTorch` `Transformers` `LoRA` `DeepSpeed` `SLURM`
+**What changes when a model must fit across memory-constrained machines?**
+
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="assets/project-hpc-light.svg">
+  <img src="assets/project-hpc.svg" alt="Conceptual distributed computing diagram: six processing nodes share a communication path." width="960">
+</picture>
+
+DistilGPT2 and OPT-2.7B experiments explore LoRA, distributed data parallelism, and DeepSpeed pipeline parallelism on a multi-node CPU cluster. Training scripts and SLURM launchers make the compute strategy explicit; the original private cluster is not publicly accessible.
+
+`PyTorch` `Transformers` `LoRA` `DDP` `DeepSpeed` `SLURM`
 
 [Inspect the training strategies →](https://github.com/SalahElshafey/VT-Cluster--Parallel-and-Distributed-Programming-of-Machine-Learning-Models)
 
-### 03 — GPT Visualization
+### 03 / GPT Visualization
 
-<a href="https://github.com/SalahElshafey/GPT-Visualization">
-  <picture>
-    <source media="(prefers-color-scheme: light)" srcset="assets/project-gpt-light.svg">
-    <img src="assets/project-gpt.svg" alt="Transformer study: a causal-attention pattern and connected model layers." width="960">
-  </picture>
-</a>
+**Understand the transformer by building its parts.**
 
-**Opening up the transformer, one component at a time.** Educational notebooks explore GPT-style language modeling through tokenization, embeddings, causal self-attention, decoder blocks, and training loops. A hands-on study of the mechanisms behind text generation.
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="assets/project-gpt-light.svg">
+  <img src="assets/project-gpt.svg" alt="Conceptual transformer diagram: a triangular causal-attention pattern feeds a sequence of model layers." width="960">
+</picture>
 
-`Python` `PyTorch` `Jupyter` `Transformers`
+Educational PyTorch notebooks connect tokenization and embeddings to causal self-attention, decoder blocks, and language-model training loops. The emphasis is on making the mechanisms inspectable through code and exercises.
+
+`Python` `PyTorch` `Jupyter` `Transformer fundamentals`
 
 [Step inside the notebooks →](https://github.com/SalahElshafey/GPT-Visualization)
 
-### 04 — Aria Glasses Object Recognition
+---
 
-<a href="https://github.com/SalahElshafey/RGU-Aria-Meta-Glasses-Object-Recognition-in-Daily-Life">
-  <picture>
-    <source media="(prefers-color-scheme: light)" srcset="assets/project-aria-light.svg">
-    <img src="assets/project-aria.svg" alt="Wearable vision: glasses connected to an object-detection frame." width="960">
-  </picture>
-</a>
+### 04 / Aria Glasses Object Recognition
 
-**Object detection from a first-person perspective.** YOLOv8n experiments with Project Aria recordings, a custom annotated dataset, and streaming integration. The repository documents the recognition workflow alongside USB and Wi-Fi streaming limitations.
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="assets/project-aria-light.svg">
+  <img src="assets/project-aria.svg" alt="Conceptual wearable-vision illustration: glasses connect to an object-detection frame." width="480">
+</picture>
 
-`Python` `YOLOv8` `OpenCV` `Project Aria` `Roboflow`
+**Computer vision from a first-person perspective.** YOLOv8n experiments use Project Aria recordings and a custom annotated dataset. Training, video inference, and streaming code sit alongside documented USB and Wi-Fi limitations.
+
+`YOLOv8n` `OpenCV` `Project Aria` `Roboflow`
 
 [Explore wearable vision →](https://github.com/SalahElshafey/RGU-Aria-Meta-Glasses-Object-Recognition-in-Daily-Life)
 
-### 05 — Virtual Reality Fitness Trainer
+### 05 / Virtual Reality Fitness Trainer
 
-<a href="https://github.com/SalahElshafey/Virtual-Reality-Fitness-Trainer">
-  <picture>
-    <source media="(prefers-color-scheme: light)" srcset="assets/project-vr-light.svg">
-    <img src="assets/project-vr.svg" alt="Interactive fitness: a human pose connected to a feedback signal." width="960">
-  </picture>
-</a>
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="assets/project-vr-light.svg">
+  <img src="assets/project-vr.svg" alt="Conceptual activity-recognition illustration: human pose landmarks connect to a feedback signal." width="480">
+</picture>
 
-**Connecting exercise recognition to interactive coaching.** A team project combining computer vision, a Unity environment, and wearable sensing. The default branch contains the machine-learning work: training and inference scripts, model outputs, and MQTT messaging for predicted exercise classes.
+**Turn exercise recognition into a signal other systems can use.** This team project brings together vision, Unity, and wearable sensing. The default MachineLearning branch contains training and inference work, model outputs, and MQTT messages carrying predicted exercise classes.
 
-`Python` `YOLOv8` `OpenCV` `MQTT` `Unity`
+`Python` `YOLOv8` `OpenCV` `MQTT` · Unity and sensing in the wider team system
 
 [Explore the fitness project →](https://github.com/SalahElshafey/Virtual-Reality-Fitness-Trainer)
 
-### 06 — Home Security App
+### 06 / Home Security App
 
-<a href="https://github.com/SalahElshafey/HomeSecurityApp">
-  <picture>
-    <source media="(prefers-color-scheme: light)" srcset="assets/project-home-light.svg">
-    <img src="assets/project-home.svg" alt="Connected home: a mobile interface linked to a lock and alert signal." width="960">
-  </picture>
-</a>
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="assets/project-home-light.svg">
+  <img src="assets/project-home.svg" alt="Conceptual connected-home illustration: a mobile interface connects to lock state and alerts." width="480">
+</picture>
 
-**A mobile interface for connected-home controls.** An Android application with Firebase authentication, locker-state controls, buzzer alerts, and timestamped history. Built with Java and AndroidX, with Firebase Realtime Database connecting interface actions and device state.
+**Make device state visible and actionable.** A Java/AndroidX application connects Firebase authentication, locker-state controls, buzzer alerts, and timestamped history through Firebase Realtime Database.
 
 `Java` `Android` `AndroidX` `Firebase` `Gradle`
 
 [View the Android application →](https://github.com/SalahElshafey/HomeSecurityApp)
 
-**More to explore:** [OpenCV image-processing experiments](https://github.com/SalahElshafey/Image-Processing) · [C# desktop application](https://github.com/SalahElshafey/Computer-System-Company) · [OpenGL air hockey](https://github.com/SalahElshafey/Air-Hockey_OpenGL) · [JavaScript browser extension](https://github.com/SalahElshafey/URL-Saver-Extension)
+## Further explorations
+
+[Image processing](https://github.com/SalahElshafey/Image-Processing) — OpenCV experiments &nbsp; / &nbsp; [Desktop software](https://github.com/SalahElshafey/Computer-System-Company) — C# application
+
+[Air hockey](https://github.com/SalahElshafey/Air-Hockey_OpenGL) — OpenGL &nbsp; / &nbsp; [URL Saver](https://github.com/SalahElshafey/URL-Saver-Extension) — JavaScript browser extension
 
 ## Technical toolbox
 
-Technologies used across my projects and experiments; the linked repositories show how I use them.
+Tools and methods used across these projects. The repositories show the context and depth of each.
 
-| Area | Technologies & methods |
-| :--- | :--- |
-| <img src="assets/icons/python.svg" alt="Python" width="24" height="24"> <img src="assets/icons/pytorch.svg" alt="PyTorch" width="24" height="24"> **AI & data** | Python, PyTorch, Transformers, NumPy, Streamlit, Jupyter |
-| <img src="assets/icons/opencv.svg" alt="OpenCV" width="24" height="24"> **Computer vision** | OpenCV, YOLOv8, Roboflow, object detection, pose estimation |
-| **Distributed systems** | Linux, SLURM, DeepSpeed, DDP, LoRA, MQTT |
-| <img src="assets/icons/android.svg" alt="Android" width="24" height="24"> <img src="assets/icons/csharp.svg" alt="C sharp" width="24" height="24"> <img src="assets/icons/javascript.svg" alt="JavaScript" width="24" height="24"> **Applications** | Java, Android SDK, AndroidX, C#, Windows Forms, Firebase, JavaScript |
-| <img src="assets/icons/cplusplus.svg" alt="C plus plus" width="24" height="24"> <img src="assets/icons/arduino.svg" alt="Arduino" width="24" height="24"> **Hardware & immersive** | C++, Arduino, ESP8266, Unity, wearable sensing |
+<img src="assets/icons/python.svg" alt="" width="22" height="22"> <img src="assets/icons/pytorch.svg" alt="" width="22" height="22"> **Machine learning**<br>
+Python · PyTorch · Hugging Face Transformers · NumPy · Jupyter · Streamlit
 
-My programming background also includes **C**.
+<img src="assets/icons/opencv.svg" alt="" width="22" height="22"> **Computer vision**<br>
+OpenCV · YOLOv8 · Roboflow · Object detection · Pose estimation
 
-## GitHub activity
+**Distributed and systems**<br>
+Linux · SLURM · DeepSpeed · DDP · LoRA · MQTT
 
-[Browse my repositories](https://github.com/SalahElshafey?tab=repositories) · [View contributions and activity](https://github.com/SalahElshafey?tab=overview)
+<img src="assets/icons/android.svg" alt="" width="22" height="22"> <img src="assets/icons/javascript.svg" alt="" width="22" height="22"> <img src="assets/icons/csharp.svg" alt="" width="22" height="22"> **Application engineering**<br>
+Java · Android · Firebase · JavaScript · C# · Windows Forms
 
-## Let’s connect
+<img src="assets/icons/cplusplus.svg" alt="" width="22" height="22"> <img src="assets/icons/arduino.svg" alt="" width="22" height="22"> **Embedded and immersive**<br>
+C · C++ · Arduino · ESP8266 · Unity
 
-Interested in language models, computer vision, or connecting software with hardware? I’d enjoy comparing approaches and discussing a project.
+## Currently exploring
 
-**[Salaheldinelshafie@gmail.com](mailto:Salaheldinelshafie@gmail.com)** · [LinkedIn](https://www.linkedin.com/in/salah-elshafey/) · [Resume](https://drive.google.com/file/d/1Vv9GS6_QjldfRYYANVyX-hqmCcank_7z/view?usp=sharing)
+Transformer internals, memory-efficient model training, and application development with Java and JavaScript. I use these studies to connect model behavior with the engineering choices around it.
 
-Also on [X / Twitter](https://twitter.com/salah_elshafie) and [Facebook](https://fb.com/salah.cx).
+## On GitHub
+
+Follow the work through [my repositories](https://github.com/SalahElshafey?tab=repositories) and [contribution activity](https://github.com/SalahElshafey?tab=overview).
+
+## Let’s build something meaningful
+
+Working on language models, computer vision, or an intelligent system that needs to meet the physical world? I’d enjoy comparing approaches and discussing a collaboration.
+
+**[Email me](mailto:Salaheldinelshafie@gmail.com)** &nbsp; / &nbsp; [LinkedIn](https://www.linkedin.com/in/salah-elshafey/) &nbsp; / &nbsp; [Resume](https://drive.google.com/file/d/1Vv9GS6_QjldfRYYANVyX-hqmCcank_7z/view?usp=sharing) &nbsp; / &nbsp; [GitHub](https://github.com/SalahElshafey)
+
+[Salaheldinelshafie@gmail.com](mailto:Salaheldinelshafie@gmail.com) · Also on [X / Twitter](https://twitter.com/salah_elshafie) and [Facebook](https://fb.com/salah.cx).
 
 ---
 
-<sub>Salah Elshafey &nbsp; / &nbsp; Data → Models → Systems</sub>
+<sub><strong>SALAH ELSHAFEY</strong> &nbsp; / &nbsp; DATA → MODELS → SYSTEMS</sub>

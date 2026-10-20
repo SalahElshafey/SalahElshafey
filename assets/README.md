@@ -1,21 +1,23 @@
 # Profile assets
 
-The profile has no build step. Edit the root `README.md` and the SVG files directly.
+The README displays local GIF, PNG, and SVG files; visitors need no build tools. To regenerate the procedural artwork, see [the design and maintenance guide](../docs/DESIGN.md).
 
 ## Visual system
 
-- `profile-hero.svg` and `profile-hero-light.svg`: desktop hero, 960 × 280.
-- `profile-hero-mobile.svg` and `profile-hero-mobile-light.svg`: compact composition, 600 × 280. The README selects these at viewport widths up to 600 px.
-- `project-*.svg` and their `*-light.svg` companions: six conceptual project illustrations, 960 × 136. These are diagrams, not screenshots or benchmark results.
-- `icons/`: eight unmodified SVGs from [Devicon v2.17.0](https://github.com/devicons/devicon/tree/v2.17.0/icons), with the upstream [MIT license](icons/LICENSE).
+- `hero/`: original animated desktop and mobile heroes in dark and light themes, each with a static PNG companion.
+- `motion/`: the Data → Models → Systems signature, with horizontal and stacked mobile compositions.
+- `projects/`: animated Edge SLM diagrams in desktop/mobile and dark/light variants, with static PNG companions.
+- `project-*.svg`: the six existing vector project illustrations. The distributed-training and GPT illustrations remain full-width; the three systems illustrations use a more compact presentation. Their dark palette follows the new hero.
+- `profile-hero*.svg`: the previous static hero compositions, retained as editable vector artwork and for existing references.
+- `icons/`: eight unmodified [Devicon v2.17.0](https://github.com/devicons/devicon/tree/v2.17.0/icons) icons and their [MIT license](icons/LICENSE).
 
-The default artwork uses midnight navy `#0B1020`, slate `#151E32`, cyan `#38BDF8`, teal `#2DD4BF`, and violet `#A78BFA`. Light variants use pale slate backgrounds and darker accent colors for contrast. Keep paired assets in sync when editing.
+All diagrams are conceptual illustrations, not software screenshots, measured model traces, or benchmark results. They use no scripts, remote fonts, or runtime image services. All core identity, project scope, technologies, and contact information remain native Markdown.
 
-All artwork is local, static SVG with system-font fallbacks. It contains no scripts, external fonts, embedded bitmaps, or network dependencies. Native Markdown carries every project description, technology list, and contact link so the portfolio remains useful without images. The README uses GitHub-supported Markdown, images, links, tables, and `<picture>` elements; it needs no custom CSS or JavaScript.
+The three animated placements select a single theme and viewport variant through `<picture>`. Reduced-motion sources select still PNGs before animated sources. The first GIF frame is also a complete composition. See [validation results](../docs/VALIDATION.md) for the boundaries of local preview testing.
 
 ## Project references
 
-Portfolio copy was checked against public READMEs and representative source on 19 October 2026. These links pin the inspected revisions so later edits can distinguish documented capabilities from new work.
+Portfolio copy was checked against public READMEs and representative source on 20 October 2026. These links pin the inspected revisions so later edits can distinguish documented capabilities from new work.
 
 | Project | Evidence and scope |
 | :--- | :--- |
@@ -30,8 +32,6 @@ Other public repository pages and relevant READMEs were reviewed before selectin
 
 ## Rendering and link checks
 
-Local Chromium previews use GitHub-style Markdown CSS. Review desktop and narrow layouts in both color schemes after changing content. This approximates GitHub rendering; it does not exercise GitHub's hosted sanitizer, image proxy, or profile container. Keep the native text and links readable independently of the illustrations.
+All six pinned project revisions were rechecked during the redesign. Current READMEs and representative source files were read through Git or raw HTTPS; the revisions above are unchanged. See [the validation report](../docs/VALIDATION.md) for the files inspected and link-check results.
 
-Repository destinations were reachable during the audit. The existing Google Drive CV, LinkedIn, X/Twitter, and Facebook URLs were preserved exactly, but this environment's network policy prevented confirming their availability. The email address was preserved; delivery was not tested.
-
-The coding GIF, trophy panel, and dynamic statistics/streak images were removed. They could not be validated under the network policy and added third-party requests. Direct links to GitHub repositories and activity replace the statistics widgets; no static or invented metrics are displayed.
+Activity links point directly to GitHub. No third-party statistics cards, contribution metrics, visitor counters, or image-service credentials are used.
