@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="176" height="48" viewBox="0 0 176 48" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">Connect</title>
+  <desc id="desc">Jump to connect.</desc>
+
+  <rect x="1" y="1" width="174" height="46" rx="23" fill="#0B1424" stroke="#334A65"/>
+  <text x="79" y="30" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="500" fill="#F0F5FC">Connect</text>
+  <path d="m145 22 4 4-4 4" stroke="#45DBFF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+</svg>

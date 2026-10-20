@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="96" viewBox="0 0 640 96" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">Explore repository: Distributed LLM fine-tuning</title>
+  <desc id="desc">Explore repository. Distributed LLM fine-tuning.</desc>
+
+  <defs>
+    <linearGradient id="surface" x1="0" y1="0" x2="640" y2="96" gradientUnits="userSpaceOnUse"><stop stop-color="#13243B"/><stop offset="1" stop-color="#0B1424"/></linearGradient>
+    <linearGradient id="edge"><stop stop-color="#AD96FF" stop-opacity=".8"/><stop offset=".65" stop-color="#334A65"/></linearGradient>
+  </defs>
+  <rect x="1" y="1" width="638" height="94" rx="14" fill="url(#surface)" stroke="url(#edge)"/>
+  <path d="M22 2h92" stroke="#AD96FF" stroke-opacity=".3" stroke-linecap="round"/>
+  <rect x="17" y="27" width="36" height="41" rx="9" fill="#0B1424" stroke="#334A65"/>
+  <g fill="#0B1424" stroke="#AD96FF" stroke-width="1.5" stroke-linecap="round">
+    <path d="M29 38v20m0-11h5c7 0 8-3 8-8"/>
+    <circle cx="29" cy="36" r="3"/><circle cx="29" cy="60" r="3"/><circle cx="42" cy="36" r="3"/>
+  </g>
+  <text x="80" y="40" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="24" font-weight="600" fill="#F0F5FC">Explore repository</text>
+  <text x="80" y="68" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="18" fill="#A0B2CB">Distributed LLM fine-tuning</text>
+  <rect x="589" y="32" width="32" height="32" rx="9" fill="#0B1424" stroke="#334A65"/>
+  <path d="M598 53l12-12m-11 0h11v11" stroke="#AD96FF" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+
+</svg>

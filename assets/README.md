@@ -4,7 +4,8 @@ The README displays local GIF, PNG, and SVG files; visitors need no build tools.
 
 ## Visual system
 
-- `contact/`: five original contact buttons in dark/light themes, plus desktop/mobile website invitation cards. Regenerate with `python3 scripts/generate_contact_assets.py`.
+- `actions/`: theme-aware section navigation, six repository action cards with mobile variants, four supporting-project cards, and two GitHub activity cards.
+- `contact/`: seven original contact/social buttons in dark/light themes, plus desktop/mobile website invitation cards. Regenerate with `python3 scripts/generate_contact_assets.py`.
 - `hero/`: original animated desktop and mobile heroes in dark and light themes, each with a static PNG companion.
 - `motion/`: the Data → Models → Systems signature, with horizontal and stacked mobile compositions.
 - `projects/`: animated Edge SLM diagrams in desktop/mobile and dark/light variants, with static PNG companions.

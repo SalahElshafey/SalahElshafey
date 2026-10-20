@@ -67,13 +67,21 @@ The README uses Markdown plus supported `a`, `picture`, `source`, `img`, `br`, `
 
 The personal website now leads the contact links at the top of the profile. A linked “Beyond the README” card introduces it again beside the closing invitation. The exact destination is `https://salah-elshafey.netlify.app/`.
 
-Website, email, LinkedIn, resume, and GitHub links use original SVG button artwork with consistent line icons, directional arrows, fine borders, and subtle surface gradients. The website uses a stronger blue surface to establish hierarchy. Every button is a normal anchor around a theme-aware image, so GitHub does not need to support custom CSS or JavaScript. Each displayed button is 136 × 45 px; inline links wrap naturally on narrow screens. The website card has a separate mobile composition. Native website and email links remain readable below the buttons.
+Website, email, LinkedIn, resume, and GitHub links use original SVG button artwork with consistent line icons, directional arrows, fine borders, and subtle surface gradients. The website uses a stronger blue surface to establish hierarchy. Every button is a normal anchor around a theme-aware image, so GitHub does not need to support custom CSS or JavaScript. Each displayed button is 136 × 45 px; inline links wrap naturally on narrow screens. The website card has a separate mobile composition. Native website and email addresses remain readable below the buttons.
 
-Regenerate these 14 SVG files with the standard library alone:
+Regenerate the contact and portfolio action artwork with the standard library alone:
 
 ```bash
 python3 scripts/generate_contact_assets.py
 python3 scripts/validate_assets.py
 ```
 
-The button/card generator does not touch the animated assets. Edit `THEMES`, `LABELS`, or the vector geometry in `scripts/generate_contact_assets.py`; README anchors own the destinations. All button icons are original line drawings and require no additional icon library.
+The button/card generator does not touch the animated assets. Edit `THEMES`, `LABELS`, or the vector geometry in `scripts/generate_contact_assets.py`; `CONTACT_LINKS` records contact destinations; keep the corresponding README anchors in sync. All button icons are original line drawings and require no additional icon library.
+
+## Portfolio action hierarchy
+
+Every README action uses the same visual language. Navigation uses small outlined pills. The six featured repositories have larger “Explore repository” cards, each paired with its project name and a source-branch icon. Cyan, violet, and teal accents distinguish the cards without introducing unrelated badge styles. Each project illustration also links directly to its repository. Supporting projects and GitHub activity use compact cards; X/Twitter and Facebook use the contact-button style.
+
+Repository cards have separate desktop/mobile compositions. Supporting cards wrap from pairs into a single column on narrow viewports. All labels have descriptive alt text, and native Markdown retains the engineering descriptions and project names. Addresses are displayed as inline code to keep contact details readable without adding a second row of plain links.
+
+`ACTIONS` in `scripts/generate_contact_assets.py` records action IDs, titles, subtitles, categories, and exact destinations. The generator now produces 62 SVG files across `assets/contact/` and `assets/actions/`: seven contact actions in two themes, four website cards, and 44 portfolio action variants. To change a URL, update its catalogue entry and matching README anchor; to change appearance, edit the generator and regenerate. It needs no package install and does not alter the animated artwork.

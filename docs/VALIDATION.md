@@ -2,6 +2,16 @@
 
 Latest refinement checked on 20 October 2026. Browser results below describe local GitHub-style previews; hosted GitHub rendering is not implied.
 
+## Full portfolio action refinement
+
+- All standalone root README actions now use image-backed links: four navigation pills, six featured repository buttons, four supporting-project cards, two GitHub activity cards, and contact/social buttons. All six featured illustrations also link to their repository.
+- The root README contains no remaining plain Markdown action links. All 19 prior external destinations are preserved exactly, including the website, resume query string, GitHub activity tabs, and social accounts.
+- `python3 scripts/validate_assets.py` passes: 114 local image references, section anchors, alt metadata, the HTML allowlist, 86 valid SVGs, and all 12 unchanged GIF variants.
+- Sixteen local Chromium combinations passed at 1280, 768, 390, and 320 px, with both color schemes and motion preferences. All 45 displayed images load, all 35 links contain artwork, each action resolves to its exact catalogue destination, navigation anchors resolve, mobile repository variants are selected correctly, and no horizontal overflow occurs.
+- Text bounds were inspected in all 48 new SVG variants; no text extends outside its image. Desktop and mobile screenshots were reviewed, including project cards, the supporting-project grid, navigation, and the closing contact area.
+- All 62 contact/action SVGs regenerate byte for byte from a different working directory. The 48 new variants total 69,742 bytes; selected additional artwork totals 24,824 bytes for dark desktop before caching/request overhead.
+- No technical project descriptions, achievements, or existing animated assets were changed. `git diff --check` passes. Hosted GitHub rendering remains outside these local preview checks.
+
 ## Website and contact refinement
 
 - Added the exact personal website URL: `https://salah-elshafey.netlify.app/`.
